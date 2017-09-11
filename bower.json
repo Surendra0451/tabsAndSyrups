@@ -1,0 +1,22 @@
+{
+  "name": "tabsAndSyrups",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Surendra"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.6",
+    "angular-route": "^1.6.6",
+    "bootstrap": "^3.3.7"
+  }
+}

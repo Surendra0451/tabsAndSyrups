@@ -1,0 +1,16 @@
+<div class="container">
+	<h1>Home</h1>
+	<ul>
+		<li ng-click="userClick($index)" ng-repeat='user in finalUsers'>
+			<h4>{{user.Name}}</h4>
+			<h5>{{user.Age}}</h5>
+		</li>
+	</ul>
+</div>
+<div class="container">
+	<label>Name : </label>
+	<input type="text" ng-model="new.Name"/>
+	<label>Age : </label>
+	<input type="text" ng-model="new.Age"/>
+	<input type="button" class="btn" value="Add User" ng-click="addUser()"/>
+</div>

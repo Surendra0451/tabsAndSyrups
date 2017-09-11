@@ -1,0 +1,24 @@
+<div class="container">
+	<div class="row">
+		<h1>User</h1>
+	</div>
+	<div class="row">
+		<div class="user-info col-md-4">
+			<p>Name : {{userOne.Name}}</p>
+			<p>Age  : {{userOne.Age}}</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="edit-info col-md-4">
+			<label>Name : </label>
+			<input type="text" class="form-control" ng-model="userOne.Name"/>
+			<label>Age : </label>
+			<input type="text" class="form-control" ng-model="userOne.Age"/>
+		</div>
+	</div>
+	
+	
+	<input type="button" class="btn btn-primary" ng-click="editUser()" value="Edit" />
+	<input type="button" class="btn btn-danger" ng-click="deleteUser()" value="Delete" />
+	<input type="button" class="btn btn-success" ng-click="updateUser()" value="Update" />
+</div>
